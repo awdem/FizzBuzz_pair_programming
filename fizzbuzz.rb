@@ -1,14 +1,13 @@
-
 def fizzbuzz(n)
   if n % 3 == 0 && n % 5 == 0
-    return "FizzBuzz"
+    "FizzBuzz"
   elsif n % 3 == 0
-    return "Fizz"
+    "Fizz"
   elsif n % 5 == 0
-    return "Buzz"
+    "Buzz"
   else
-    puts n
+    n
   end
 end
 
-puts fizzbuzz(4)
+puts fizzbuzz(6)
