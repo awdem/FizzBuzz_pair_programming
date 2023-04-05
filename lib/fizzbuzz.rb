@@ -1,9 +1,9 @@
 def fizzbuzz(n)
-  if n == 3 
-    'fizz'
-  elsif n==5
-    'buzz'
-  elsif n==15
+  if n % 3 == 0 && n % 5 == 0 
     'fizzbuzz'
+  elsif n % 5 == 0
+    'buzz'
+  elsif n % 3 == 0 
+    'fizz'
   end
 end
