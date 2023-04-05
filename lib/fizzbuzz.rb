@@ -5,5 +5,7 @@ def fizzbuzz(n)
     'buzz'
   elsif n % 3 == 0 
     'fizz'
+  else
+    n
   end
 end
